@@ -2470,6 +2470,7 @@ function editParagraph(div_id, mode, switched)
 
 					$('#tinytarget_ifr').contents().find("html").attr('lang', $('html').attr('lang'));
 					$('#tinytarget_ifr').contents().find("html").attr('dir', $('html').attr('dir'));
+					$('#tinytarget_ifr').contents().find("html").css("overflow", "auto");
 				});
 			}
 
