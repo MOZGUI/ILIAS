@@ -8880,9 +8880,14 @@ header {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
+
+img.img-standart {
+  height: 50px;
+}
+
 .il-logo {
   width: 50%;
-  height: 45px;
+  height: 30px;
   justify-self: start;
   display: flex;
   align-items: center;
