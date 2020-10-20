@@ -19,7 +19,7 @@ if ($_GET['new_ui'] == '1') {
 
     $f = $DIC->ui()->factory();
     $renderer = $DIC->ui()->renderer();
-    $logo = $f->image()->responsive("templates/default/images/HeaderIcon.svg", "ILIAS");
+    $logo = $f->image()->responsive("templates/default/images/HeaderIcon.png", "ILIAS");
     $breadcrumbs = pagedemoCrumbs($f);
     $metabar = pagedemoMetabar($f);
     $mainbar = pagedemoMainbar($f, $renderer);

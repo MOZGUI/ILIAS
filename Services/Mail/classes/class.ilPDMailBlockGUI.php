@@ -184,7 +184,7 @@ class ilPDMailBlockGUI extends ilBlockGUI
             $this->tpl->parseCurrentBlock();
         } else {
             $this->tpl->setVariable('PUBLIC_NAME_LONG', ilMail::_getIliasMailerName());
-            $this->tpl->setVariable('IMG_SENDER', ilUtil::getImagePath('HeaderIconAvatar.svg'));
+            $this->tpl->setVariable('IMG_SENDER', ilUtil::getImagePath('HeaderIconAvatar.png'));
             $this->tpl->setVariable('ALT_SENDER', htmlspecialchars(ilMail::_getIliasMailerName()));
         }
 
@@ -301,7 +301,7 @@ class ilPDMailBlockGUI extends ilBlockGUI
             $alt_sender = "";
         } else {
             $public_name_long = ilMail::_getIliasMailerName();
-            $img_sender = ilUtil::getImagePath('HeaderIconAvatar.svg');
+            $img_sender = ilUtil::getImagePath('HeaderIconAvatar.png');
             $alt_sender = htmlspecialchars(ilMail::_getIliasMailerName());
         }
 

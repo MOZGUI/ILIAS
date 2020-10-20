@@ -188,7 +188,7 @@ Also checkout the breadcrumb less variables.
 
 #### Step 6: Change the ILIAS Icon
 
-The main ILIAS icon is stored in the images Directory as `HeaderIcon.svg`. You
+The main ILIAS icon is stored in the images Directory as `HeaderIcon.png`. You
 can replace this easyly by your own Icon in svg format. As long as your Icon is
 close to a square, this may be all that is needed. Probably you want to change
 the file favicon `.ico` in ILIAS' root directory too. For non-square Icons you

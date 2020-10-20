@@ -19,7 +19,7 @@ function with_object_icon_and_certificate()
     );
 
     $image = $f->image()->responsive(
-        "./templates/default/images/HeaderIcon.svg",
+        "./templates/default/images/HeaderIcon.png",
         "Thumbnail Example"
     );
 

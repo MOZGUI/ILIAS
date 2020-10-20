@@ -764,7 +764,7 @@ class ilMailFolderGUI
             $from = new ilCustomInputGUI($this->lng->txt('from') . ':');
             $from->setHtml(
                 ilUtil::img(
-                    ilUtil::getImagePath('HeaderIconAvatar.svg'),
+                    ilUtil::getImagePath('HeaderIconAvatar.png'),
                     ilMail::_getIliasMailerName(),
                     '',
                     '',

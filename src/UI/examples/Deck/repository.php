@@ -29,7 +29,7 @@ function repository()
     );
 
     $image = $f->image()->responsive(
-        "./templates/default/images/HeaderIcon.svg",
+        "./templates/default/images/HeaderIcon.png",
         "Thumbnail Example"
     );
 

@@ -170,7 +170,7 @@ class StandardPagePartProvider implements PagePartProvider
      */
     public function getLogo() : ?Image
     {
-        $std_logo = ilUtil::getImagePath("HeaderIcon.svg");
+        $std_logo = ilUtil::getImagePath("HeaderIcon.png");
         $std_logo_link = ilUserUtil::getStartingPointAsUrl();
         if (!$std_logo_link) {
             $std_logo_link = "./goto.php?target=root_1";

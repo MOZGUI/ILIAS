@@ -217,8 +217,8 @@ class ilMainMenuGUI
 
         if ($this->logo_only) {
             $this->tpl->setVariable("HEADER_URL", $this->getHeaderURL());
-            $this->tpl->setVariable("HEADER_ICON", ilUtil::getImagePath("HeaderIcon.svg"));
-            $this->tpl->setVariable("HEADER_ICON_RESPONSIVE", ilUtil::getImagePath("HeaderIconResponsive.svg"));
+            $this->tpl->setVariable("HEADER_ICON", ilUtil::getImagePath("HeaderIcon.png"));
+            $this->tpl->setVariable("HEADER_ICON_RESPONSIVE", ilUtil::getImagePath("HeaderIconResponsive.png"));
 
             // #15759
             $header_top_title = ilObjSystemFolder::_getHeaderTitle();
@@ -351,8 +351,8 @@ class ilMainMenuGUI
         if ($this->getMode() == self::MODE_FULL) {
             // $this->tpl->setVariable("TXT_LOGOUT", $lng->txt("logout"));
             $this->tpl->setVariable("HEADER_URL", $this->getHeaderURL());
-            $this->tpl->setVariable("HEADER_ICON", ilUtil::getImagePath("HeaderIcon.svg"));
-            $this->tpl->setVariable("HEADER_ICON_RESPONSIVE", ilUtil::getImagePath("HeaderIconResponsive.svg"));
+            $this->tpl->setVariable("HEADER_ICON", ilUtil::getImagePath("HeaderIcon.png"));
+            $this->tpl->setVariable("HEADER_ICON_RESPONSIVE", ilUtil::getImagePath("HeaderIconResponsive.png"));
         }
 
         $this->tpl->setVariable("TXT_MAIN_MENU", $lng->txt("main_menu"));
